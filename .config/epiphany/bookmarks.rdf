@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ephy="http://gnome.org/ns/epiphany#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="file:///home/pi/.config/epiphany/bookmarks.rdf">
+    <title>Epiphany bookmarks</title>
+    <link>http://www.gnome.org/projects/epiphany/</link>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://duckduckgo.com"/>
+        <rdf:li rdf:resource="http://129.31.147.173:3580/"/>
+        <rdf:li rdf:resource="http://129.31.147.212:3580/"/>
+        <rdf:li rdf:resource="http://129.31.147.78:3582/"/>
+        <rdf:li rdf:resource="http://129.31.147.160:3580/"/>
+        <rdf:li rdf:resource="http://129.31.147.32:3582/"/>
+        <rdf:li rdf:resource="http://129.31.147.117:3582/"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="https://duckduckgo.com">
+    <title>Search the web</title>
+    <link>https://duckduckgo.com</link>
+    <ephy:smartlink>https://duckduckgo.com/?q=%s&amp;t=raspberrypi</ephy:smartlink>
+  </item>
+  <item rdf:about="http://129.31.147.173:3580/">
+    <title>WITEC-PC Web-based Configuration</title>
+    <link>http://129.31.147.173:3580/</link>
+  </item>
+  <item rdf:about="http://129.31.147.212:3580/">
+    <title>USER-PC Web-based Configuration</title>
+    <link>http://129.31.147.212:3580/</link>
+  </item>
+  <item rdf:about="http://129.31.147.78:3582/">
+    <title>MUSODROME-PC Web-based Configuration</title>
+    <link>http://129.31.147.78:3582/</link>
+  </item>
+  <item rdf:about="http://129.31.147.160:3580/">
+    <title>2P-DEMO1 Web-based Configuration</title>
+    <link>http://129.31.147.160:3580/</link>
+  </item>
+  <item rdf:about="http://129.31.147.32:3582/">
+    <title>YLPS020229 Web-based Configuration</title>
+    <link>http://129.31.147.32:3582/</link>
+  </item>
+  <item rdf:about="http://129.31.147.117:3582/">
+    <title>JEDI Web-based Configuration</title>
+    <link>http://129.31.147.117:3582/</link>
+  </item>
+</rdf:RDF>

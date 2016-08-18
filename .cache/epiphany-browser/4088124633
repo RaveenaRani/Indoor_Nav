@@ -1,0 +1,21 @@
+<!-- vim:filetype=xhtml
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en">
+	<head>
+<base href="https://prereg.ic.ac.uk/register/academic/" />
+
+		<title>Error registering your system</title>
+
+		<link href="/hdb.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div>
+
+			<h1>Welcome to the Imperial College network</h1>
+
+			<h3>This machine is already registered</h3>
+			<p>If you are waiting for a request to be processed, please note it make take up to 15 minutes for network access to be enabled.</p>
+		</div>
+	</body>
+</html>

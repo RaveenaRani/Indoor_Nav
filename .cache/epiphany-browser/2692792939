@@ -1,0 +1,42 @@
+<html>
+<head><title>Imperial College London - Academic Network</title></head>
+<body>
+
+<h1>Your system is unregistered</h1>
+
+<p>Welcome to Imperial College. If you are seeing this message, your machine
+is unregistered; please choose one of the following options:</p>
+
+<div>
+  <h2>I am a member of Imperial College</h2>
+  <p>If you are a member of Imperial, you can log in using your college
+  username and password, and register your machine</p>
+
+  <a href="https://prereg.ic.ac.uk/register/academic">Click here to login and register</a>
+</div>
+
+<div>
+  <h2>I am a guest at Imperial College...</h2>
+
+  <div style="padding-left: 5em;">
+    <h3>...and have activated my login &quot;guestXXX&quot; and know my password</h3>
+    <a href="https://prereg.ic.ac.uk/register/academic/index_html/personal">Click here to login and register</a>
+
+  </div>
+
+  <div style="padding-left: 5em;">
+    <h3>...and have a unique ID but have not yet activated my account</h3>
+    <a href="https://guestaccess.imperial.ac.uk">Click here to activate your guest account</a>
+  </div>
+
+</div>
+
+<div>
+  <h2>I am a visitor from an Janet Roaming / EduRoam-affiliated institute</h2>
+  <p>Imperial is a member of the Janet Roaming Service (an EduRoam member).
+  EduRoam access is only available by wireless; please disconnect your machine
+  from the wired network and try connecting to the <em>eduroam</em> SSID.</p>
+</div>
+
+</body>
+</html>
