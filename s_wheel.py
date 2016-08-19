@@ -27,6 +27,7 @@ GPIO.setup(startPin,GPIO.IN)
 GPIO.setup(stopPin,GPIO.IN)
 GPIO.setup(A_PIN,GPIO.IN)
 GPIO.setup(B_PIN,GPIO.IN)
+
 GPIO.setup(ledpin,GPIO.OUT)
 GPIO.output(ledpin,True)	# initially LED is turned off as pin is high
 
@@ -92,13 +93,15 @@ try:
                     accumulated_delta = accumulated_delta+delta
 
                     length = (accumulated_delta/20.0)*PERIMETER    # there are 5 pulses in 1/4 turn of the surveyor's wheel, delta = 1 maeans 1/4 turn has been completed
-                    t = datetime.datetime.now()
+                    # error = +/- 49.951/20 = +/- 2.50cm 
+					t = datetime.datetime.now()
                     timestamp = t.strftime("%H:%M:%S.%f")
                     final_str = '%1d\t%1d\t%1d\t%1d\t%4d\t%4d\t%4d\t%4d\t\t%.2f\t%s\n' % (a_state, b_state, last_a_state, last_b_state, sequence, last_sequence, delta, accumulated_delta, length, timestamp)
                     f.write(final_str)
                     print "%s\n" % final_str
                     last_heading += 1
                     last_a_state = a_state
+					last_delta = delta
                     last_b_state = b_state
                     last_sequence = sequence
 
