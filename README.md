@@ -1,1 +1,1 @@
-Please read Documentation.docx for an introduction to the repository!
+Please read Documentation.docx inside, for an introduction to the repository!
