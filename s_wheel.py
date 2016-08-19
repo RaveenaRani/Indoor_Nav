@@ -1,7 +1,3 @@
-# Sample code for both the RotaryEncoder class and the Switch class.
-# The common pin for the encoder should be wired to ground.
-# The sw_pin should be shorted to ground by the switch.
-
 # Output looks like this:
 #
 #    A B STATE SEQ DELTA SWITCH
@@ -20,32 +16,22 @@ import RPi.GPIO as GPIO
 startPin = 22
 stopPin = 24
 ledpin = 17
+# Rotary encoder parameters
+A_PIN  = 8 
+B_PIN  = 7
+
 GPIO.setmode(GPIO.BCM)
 
 #set channels as input or output
 GPIO.setup(startPin,GPIO.IN)
 GPIO.setup(stopPin,GPIO.IN)
-GPIO.setup(ledpin,GPIO.OUT)
-GPIO.output(ledpin,True)
-
-# Rotary encoder and wheel parameters
-A_PIN  = 8  # was previously 10
-B_PIN  = 7  # was previously 11
-
 GPIO.setup(A_PIN,GPIO.IN)
 GPIO.setup(B_PIN,GPIO.IN)
+GPIO.setup(ledpin,GPIO.OUT)
+GPIO.output(ledpin,True)	# initially LED is turned off as pin is high
+
 
 PERIMETER = 49.951  # perimeter in cm - verified
-
-# NOTE: the library includes individual calls to get
-# the rotation_state, rotation_sequence and delta values.  
-# However this demo only reads the rotation_state and locally
-# derives the rotation_sequence and delta.  This ensures that
-# the derived values are based on the same two input bits A and B.
-# If we used the library calls, there is a very real chance that
-# the inputs would change while we were sampling, giving us 
-# inconsistent values in the output table.
-
 
 try:
     while True:
@@ -63,21 +49,23 @@ try:
             print "New file %s has been created.\n" % filename
 
             print("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\n")
-
+			
+			# read in pins A and B to set the initial variables
             last_a_state = GPIO.input(A_PIN)
             last_b_state = GPIO.input(B_PIN)
+			
+			# set initial values
             last_heading = 0
             accumulated_delta = 0
             last_delta = 0
             last_sequence = (last_a_state ^ last_b_state) | last_b_state << 1
- 
             delta = 0
             length = 0
             
             while True:
-                GPIO.output(ledpin,False)
+                GPIO.output(ledpin,False)	# LED turns on
                 
-                # print a heading every 20 lines
+                # prints and writes to a file the heading after every 20 lines
                 if (last_heading != 0) and (last_heading % 20) == 0:
                     f.write("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\n")
                     print("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\n")
@@ -85,7 +73,8 @@ try:
                 # extract individual signal bits for A and B
                 a_state = GPIO.input(A_PIN)
                 b_state = GPIO.input(B_PIN)
-
+				
+				# determine the delta value and add it if either A or B has changed
                 if((last_a_state != a_state) or (last_b_state != b_state)):
                     sequence = (a_state ^ b_state) | (b_state << 1) 
 
@@ -113,11 +102,11 @@ try:
                     last_b_state = b_state
                     last_sequence = sequence
 
-
                 if (GPIO.input(stopPin)):
                     print "Stop button has been pressed!\n"
-                    GPIO.output(ledpin,True)
+                    GPIO.output(ledpin,True)	#LED turns off
                     f.close()
+					#set all values to the initial state
                     delta = 0
                     accumulated_delta = 0
                     length = 0
@@ -127,7 +116,7 @@ try:
 
 finally:
     print "Exiting program!\n"
-    GPIO.cleanup()
+    GPIO.cleanup()	# resets all input/output configurations
 
 
 
