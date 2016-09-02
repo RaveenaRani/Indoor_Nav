@@ -23,11 +23,12 @@
 # can geolocate you based on the APs you can see.
 
 import dbus
+import NetworkManager as NM
 
 bus = dbus.SystemBus()
 
 # Get a proxy for the base NetworkManager object
-proxy = bus.get_object("org.freedesktop.NetworkManager", "/org/freedesktop/NetworkManager")
+proxy = bus.get_object("org.freedesktop.NetworkManager", "/home/pi/NetworkManager/src/settings/plugins/ifnet/tests")
 manager = dbus.Interface(proxy, "org.freedesktop.NetworkManager")
 
 all_aps = []
@@ -35,11 +36,15 @@ all_aps = []
 print "Associated APs:"
 
 # Get all network devices
-devices = manager.GetDevices()
+devices=NM.NetworkManager.GetDevices()
+#devices = manager.GetDevices()
+print "test 1"
 for d in devices:
+    print "test 2"
     dev_proxy = bus.get_object("org.freedesktop.NetworkManager", d)
+    print "test 3"
     prop_iface = dbus.Interface(dev_proxy, "org.freedesktop.DBus.Properties")
-
+    print "test 3"
     # Make sure the device is enabled before we try to use it
     state = prop_iface.Get("org.freedesktop.NetworkManager.Device", "State")
     if state <= 2:

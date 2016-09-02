@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <session>
-	 <window x="0" y="36" width="1824" height="919" active-tab="0" role="epiphany-window-66204bb4">
-	 	 <embed url="https://www.raspberrypi.org/documentation/remote-access/vnc/" title="duckduckgo.com" loading="true"/>
+	 <window x="0" y="36" width="373" height="91" active-tab="0" role="epiphany-window-128b889f">
+	 	 <embed url="about:overview" title="Blank page" loading="true"/>
 	 </window>
 </session>

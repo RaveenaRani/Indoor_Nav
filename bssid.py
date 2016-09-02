@@ -22,14 +22,16 @@
 # machine can see.  Useful for location-based services like Skyhook that
 # can geolocate you based on the APs you can see.
 
+print "test 1"
 import dbus
-
+print "test 2"
 bus = dbus.SystemBus()
-
+print "test 3"
 # Get a proxy for the base NetworkManager object
-proxy = bus.get_object("org.freedesktop.NetworkManager", "/org/freedesktop/NetworkManager")
+proxy = bus.get_object("org.freedesktop.NetworkManager", "/usr/share/dbus1/services")
+print "test 4"
 manager = dbus.Interface(proxy, "org.freedesktop.NetworkManager")
-
+print "test 5"
 all_aps = []
 
 print "Associated APs:"

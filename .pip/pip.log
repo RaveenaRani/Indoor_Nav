@@ -1,0 +1,41 @@
+------------------------------------------------------------
+/usr/bin/pip run on Fri Sep  2 14:55:14 2016
+Downloading/unpacking subprocess
+  Getting page https://pypi.python.org/simple/subprocess/
+Cleaning up...
+Operation cancelled by user
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 290, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1178, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/dist-packages/pip/index.py", line 194, in find_requirement
+    page = self._get_page(main_index_url, req)
+  File "/usr/lib/python2.7/dist-packages/pip/index.py", line 568, in _get_page
+    session=self.session,
+  File "/usr/lib/python2.7/dist-packages/pip/index.py", line 670, in get_page
+    resp = session.get(url, headers={"Accept": "text/html"})
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 469, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/download.py", line 237, in request
+    return super(PipSession, self).request(method, url, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 457, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 569, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 362, in send
+    timeout=timeout
+  File "/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 516, in urlopen
+    body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 304, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 724, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python2.7/dist-packages/urllib3/connection.py", line 203, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python2.7/dist-packages/urllib3/connection.py", line 133, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+KeyboardInterrupt
