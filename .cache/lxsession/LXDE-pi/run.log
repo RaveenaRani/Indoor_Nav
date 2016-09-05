@@ -85,476 +85,191 @@ xprop:  no such property "_NET_DESKTOP_NAMES"
 ** Message: app.vala:76: Launching lxpanel 
 ** Message: app.vala:76: Launching pcmanfm 
 
-** (lxsession:805): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
+** (lxsession:863): WARNING **: app.vala:86: Failed to execute child process "xscreensaver" (No such file or directory)
 
-** (lxsession:805): WARNING **: app.vala:87: Error when launching xscreensaver
+** (lxsession:863): WARNING **: app.vala:87: Error when launching xscreensaver
 ** Message: options.vala:107: Create build-in Clipboard
-** Message: main.vala:429: Check keymap_mode (null)
+** Message: main.vala:429: Check keymap_mode (null** Message: main.vala:429: Check keymap_mode (null)
 ** Message: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-4Atf5IEjmxGw/agent.909; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=913; export SSH_AGENT_PID;
-echo Agent pid 913;
-
-** (lxpolkit:901): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktopObt-Message: XKB extension is not present on the server or too old
-Obt-Message: Xinerama extension is n** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+SSH_AUTH_SOCK=/tmp/ssh-jFydEOGIIwqp/agent.928; export SSH_AUTH_SOCK;
+SSH_AGENT_P
+** (lxpolkit:913): WARNING **: Unable to registerXlib:  extension "RANDR" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1".
+Obt-Message: XKB extension is not present on the server or too old
 Obt-Message: Xinerama extension is not present on the server
+Obt-Message: XRandR extension is not present on the server
+** org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.forg.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.UDisks2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
 org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.UDisks2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.AfcVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.AfcVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
+invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Priorg.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
 invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.UDisks2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
 invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.AfcVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
 invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.MTPVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
 invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GPhoto2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
 invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GoaVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.UDisks2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.AfcVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.MTPVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GPhoto2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-** Message: x-terminal-emulator has very limited support, consider choose** Message: x-terminal-emulator has very limited support, consider choose another terminal
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GoaVolu** Message: x-terminal-emulator has very limited support, consider choose** Message: x-termOpenbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
 org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
 ** Message: Connecting ...
 ** Message: Status changed to down
 ** Message: Status changed to opened
 ** Message: Connected to dhcpcd-6.7.1
 ** Message: Status changed to connected
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Configured 2001:630:12:2e1e:5fed:81ee:cd95:880c/64
-** Message: eth0: Link is up, configuring
+** Message: eth0: CARRIER
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Not associated
 ** Message: wlan0: Received scan results
 ** Message: bt: Name org.bluez owned on DBus
 ** Message: bt: New agent manager found
 ** Message: bt: New adapter found
 ** Message: va: Name org.bluez owned on DBus
 ** Message: va: Stopping PulseAudio
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Expired 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
 ** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 169.254.130.151/16
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
@@ -562,402 +277,455 @@ org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesk
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
-display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+ 'cat /proc/0/cmdline'
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(pcmanfm:884): Gtk-WARNING **: Radio group does not contain an action with value '0'
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 22 was not found when attempting to remove it
+
+(openbox:908): GLib-CRITICAL **: Source ID 23 was not found when attempting to remove it
 ** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(openbox:908): GLib-CRITICAL **: Source ID 14 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: eth0: Configured 129.31.147.114/24
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
 
-(pcmanfm:884): Gtk-WARNING **: Radio group does not contain an action with value '0'
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
+(openbox:908): GLib-CRITICAL **: Source ID 29 was not found when attempting to remove it
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Configured 129.31.222.180/21
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 31 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 32 was not found when attempting to remove it
+
+(openbox:908): GLib-CRITICAL **: Source ID 33 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 28 was not found when attempting to remove it
+
+(openbox:908): GLib-CRITICAL **: Source ID 35 was not found when attempting to remove it
+** Message: eth0: Configured 129.31.147.114/24
+
+(openbox:908): GLib-CRITICAL **: Source ID 24 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+Openbox-Message: Requested key "Print" does not exist on the display
+Openbox-Message: Requested key "Super_L" does not exist on the display
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Received scan results
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Associated with Imperial-WPA
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 
-(pcmanfm:884): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(pcmanfm:884): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
 
-(pcmanfm:884): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
 Xlib:  extension "XInputExtension" missing on display ":1".
 Xlib:  extension "XInputExtension" missing on display ":1".
 Xlib:  extension "RANDR" missing on display ":1.0".
 org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
 Xlib:  extension "XInputExtension" missing on display ":1".
 Xlib:  extension "XInputExtension" missing on display ":1".
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-cat: /proc/0/cmdline: No such file or directory
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1.0".
+org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
 ** Message: eth0: Configured 129.31.147.114/24
 ** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 38 was not found when attempting to remove it
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-lo        no wireless extensions.
-
-eth0      no wireless extensions.
-
-wlan0     IEEE 802.11bgn  ESSID:"Imperial-WPA"  
-          Mode:Managed  Frequency:2.437 GHz  Access Point: E0:0E:DA:89:5A:40   
-          Bit Rate=57.7 Mb/s   Tx-Power=31 dBm   
-          Retry short limit:7   RTS thr:off   Fragment thr:off
-          Power Management:on
-          Link Quality=42/70  Signal level=-68 dBm  
-          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
-          Tx excessive retries:15  Invalid misc:0   Missed beacon:0
-
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.UDisks2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.AfcVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.MTPVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GPhoto2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GoaVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.AfcVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.MTPVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GPhoto2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GoaVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 cat: /proc/0/cmdline: No such file or directory
 
-** (lxpanel:883): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(openbox:878): GLib-CRITICAL **: Source ID 15 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
 Xlib:  extension "XInputExtension" missing on display ":1".
 Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
 
-** (x-www-browser:9796): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+Openbox-Message: Requested key "Print" does not exist on the display
+Openbox-Message: Requested key "Super_L" does not exist on the display
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 45 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 46 was not found when attempting to remove it
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+
+(openbox:908): GLib-CRITICAL **: Source ID 48 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.222.180/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+
+** (x-www-browser:18712): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
 org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
 Xlib:  extension "XInputExtension" missing on display ":1".
 Xlib:  extension "XInputExtension" missing on display ":1".
 ** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
 
-** (epiphany-browser:9796): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
+** (epiphany-browser:18712): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
 ** Message: wlan0: Received scan results
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.UDisks2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.UDisks2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.AfcVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.AfcVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.MTPVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.MTPVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GPhoto2VolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GPhoto2VolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-invoking IsSupported() failed for remote volume monitor with dbus name org.gtk.Private.GoaVolumeMonitor:: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.Private.GoaVolumeMonitor was not provided by any .service files (g-dbus-error-quark, 2)
-Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
-
-** (x-www-browser:10947): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
-** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
-
-** (epiphany-browser:10947): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
+** Message: wlan0: Configured 129.31.222.180/21
 ** Message: wlan0: Received scan results
 
-(epiphany-browser:10947): Gtk-CRITICAL **: gtk_device_grab_add: assertion 'GDK_IS_DEVICE (device)' failed
+(openbox:908): GLib-CRITICAL **: Source ID 42 was not found when attempting to remove it
 
-(epiphany-browser:10947): Gdk-CRITICAL **: gdk_device_grab: assertion 'GDK_IS_DEVICE (device)' failed
+(openbox:908): GLib-CRITICAL **: Source ID 51 was not found when attempting to remove it
 
-(epiphany-browser:10947): Gdk-CRITICAL **: gdk_device_ungrab: assertion 'GDK_IS_DEVICE (device)' failed
+(openbox:908): GLib-CRITICAL **: Source ID 36 was not found when attempting to remove it
 
-(epiphany-browser:10947): Gtk-CRITICAL **: gtk_device_grab_remove: assertion 'GDK_IS_DEVICE (device)' failed
-** Message: wlan0: Configured 129.31.217.172/21
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Disassociated from Imperial-WPA
-** Message: wlan0: Received scan results
+(pcmanfm:920): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:917): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 ** Message: wlan0: Received scan results
 Xlib:  extension "XInputExtension" missing on display ":1".
 Xlib:  extension "XInputExtension" missing on display ":1".
-
-** (x-www-browser:12594): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
-** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
-
-** (epiphany-browser:12594): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
-** Message: wlan0: Received scan results
-
-(epiphany-browser:12594): Gtk-CRITICAL **: gtk_device_grab_add: assertion 'GDK_IS_DEVICE (device)' failed
-
-(epiphany-browser:12594): Gdk-CRITICAL **: gdk_device_grab: assertion 'GDK_IS_DEVICE (device)' failed
-
-(epiphany-browser:12594): Gdk-CRITICAL **: gdk_device_ungrab: assertion 'GDK_IS_DEVICE (device)' failed
-
-(epiphany-browser:12594): Gtk-CRITICAL **: gtk_device_grab_remove: assertion 'GDK_IS_DEVICE (device)' failed
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
-
-** (x-www-browser:12622): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
-Xlib:  extension "XInputExtension" missing on display ":1".
-Xlib:  extension "XInputExtension" missing on display ":1".
-** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
-
-** (epiphany-browser:12622): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(lxpanel:883): Gtk-CRITICAL **: IA__gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(openbox:878): GLib-CRITICAL **: Source ID 19 was not found when attempting to remove it
-
-(openbox:878): GLib-CRITICAL **: Source ID 28 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-
-(openbox:878): GLib-CRITICAL **: Source ID 29 was not found when attempting to remove it
-
-(openbox:878): GLib-CRITICAL **: Source ID 30 was not found when attempting to remove it
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results

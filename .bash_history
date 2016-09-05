@@ -226,3 +226,85 @@ virtualenv venv
 import dbus
 python
 python
+ifconfig
+lshw -businfo -numeric -class eth0
+sudo lshw -businfo -numeric -class eth0
+sudo apt-get install lshw
+lsusb
+lseth0
+lswlan0
+ls
+ls -l /dev/tty*
+lsnetwork
+lsusb
+iwconfig
+help(iwconfig)
+help (iwconfig)
+find -"iwconfig""
+find / -type f -name "*iwconfig*" print
+find / -type f -name "*iwconfig*"
+sudo find / -type f -name "*iwconfig*"
+pip install subprocess
+sudo pip install subprocess
+sudo pip install python-wifi
+sudo apt-get install python-wifi
+cat /etc/network/interfaces
+cat /etc/wpa_supplicant/wpa_supplicant.conf
+sudo cat /etc/wpa_supplicant/wpa_supplicant.conf
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+sudo pip install pythonwifi
+git add --all
+git commit -m"added python-networkmanager etc."
+git push origin master 
+git pull
+git pull http://navidu@bitbucket.org/navidu/rpi3.git
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+cd python-wifi-0.6.1/
+sudo python setup.py install
+iwlist
+iwconfig
+iwconfig wlan0
+sudo shutdown
+sudo nano /etc/network/interfaces
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+reboot
+sudo reboot
+sudo nano /etc/hosts
+sudo nano /etc/hostnames
+sudo nano /etc/hostname
+sudo rm /etc/hostnames
+sudo reboot
+sudo nano /etc/hosts
+sudo nano /etc/pam.d/
+ls /etc/
+ls /etc/pam conf
+ls /etc/pam.d
+sudo nano login
+sudo nano lightdm
+sudo reboot
+iwconfig
+iwlist
+iwlist frequency ap
+iwlist frequency
+iwlist frequency, ap
+iwlist ap
+iwlist wlan0 ap
+ifname
+wifi.ifname
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py ap
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py ap
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py accesspoints
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py encryption
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py encryption scanning
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py encryption scanning wlan0
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py encryption scanning Imperial-WPA
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py wlan0
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py ap wlan0
+iwlist.py --help
+python /home/pi/python-wifi-0.6.1/examples/iwlist.py --help
+sudo shutdown
+sudo shutdown -c
+sudo shutdown -h now
+iwconfig

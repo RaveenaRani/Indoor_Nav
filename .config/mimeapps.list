@@ -1,3 +1,4 @@
 [Added Associations]
 application/octet-stream=leafpad.desktop;
 application/zip=xarchiver.desktop;pcmanfm.desktop;
+application/x-bzip-compressed-tar=xarchiver.desktop;

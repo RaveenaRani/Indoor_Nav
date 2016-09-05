@@ -1,65 +1,43 @@
-01/09/16 16:17:15 Xvnc version TightVNC-1.3.9
-01/09/16 16:17:15 Copyright (C) 2000-2007 TightVNC Group
-01/09/16 16:17:15 Copyright (C) 1999 AT&T Laboratories Cambridge
-01/09/16 16:17:15 All Rights Reserved.
-01/09/16 16:17:15 See http://www.tightvnc.com/ for information on TightVNC
-01/09/16 16:17:15 Desktop name 'X' (aabpi:1)
-01/09/16 16:17:15 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
-01/09/16 16:17:15 Listening for VNC connections on TCP port 5901
+05/09/16 11:22:03 Xvnc version TightVNC-1.3.9
+05/09/16 11:22:03 Copyright (C) 2000-2007 TightVNC Group
+05/09/16 11:22:03 Copyright (C) 1999 AT&T Laboratories Cambridge
+05/09/16 11:22:03 All Rights Reserved.
+05/09/16 11:22:03 See http://www.tightvnc.com/ for information on TightVNC
+05/09/16 11:22:03 Desktop name 'X' (aabpi:1)
+05/09/16 11:22:03 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+05/09/16 11:22:03 Listening for VNC connections on TCP port 5901
 Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
 xrdb: No such file or directory
 xrdb: can't open file '/home/pi/.Xresources'
 
-02/09/16 11:05:03 Got connection from client 129.31.147.25
-02/09/16 11:05:03 Using protocol version 3.8
-02/09/16 11:05:03 Enabling TightVNC protocol extensions
-02/09/16 11:05:08 Full-control authentication passed by 129.31.147.25
-02/09/16 11:05:08 Using tight encoding for client 129.31.147.25
-02/09/16 11:05:08 rfbProcessClientNormalMessage: ignoring unknown encoding 16
-02/09/16 11:05:08 Using image quality level 6 for client 129.31.147.25
-02/09/16 11:05:08 rfbProcessClientNormalMessage: ignoring unknown encoding -223
-02/09/16 11:05:08 Enabling LastRect protocol extension for client 129.31.147.25
-02/09/16 11:05:08 Enabling cursor position updates for client 129.31.147.25
-02/09/16 11:05:08 Enabling full-color cursor updates for client 129.31.147.25
-02/09/16 11:05:08 Pixel format for client 129.31.147.25:
-02/09/16 11:05:08   32 bpp, depth 24, little endian
-02/09/16 11:05:08   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
-02/09/16 12:26:24 rfbProcessClientNormalMessage: read: No route to host
-02/09/16 12:26:24 Client 129.31.147.25 gone
-02/09/16 12:26:24 Statistics:
-02/09/16 12:26:24   key events received 1985, pointer events 34270
-02/09/16 12:26:24   framebuffer updates 11591, rectangles 43206, bytes 9600282
-02/09/16 12:26:24     LastRect markers 7222, bytes 86664
-02/09/16 12:26:24     cursor shape updates 715, bytes 1274262
-02/09/16 12:26:24     cursor position updates 1, bytes 12
-02/09/16 12:26:24     copyRect rectangles 516, bytes 8256
-02/09/16 12:26:24     tight rectangles 34752, bytes 8231088
-02/09/16 12:26:24   raw bytes equivalent 482935940, compression ratio 58.672188
-
-02/09/16 14:13:46 Got connection from client 129.31.147.25
-02/09/16 14:13:46 Using protocol version 3.8
-02/09/16 14:13:46 Enabling TightVNC protocol extensions
-02/09/16 14:13:55 rfbVncAuthProcessResponse: authentication failed from 129.31.147.25
-02/09/16 14:13:55 Client 129.31.147.25 gone
-02/09/16 14:13:55 Statistics:
-02/09/16 14:13:55   framebuffer updates 0, rectangles 0, bytes 0
-
-02/09/16 14:13:59 Got connection from client 129.31.147.25
-02/09/16 14:13:59 Using protocol version 3.8
-02/09/16 14:13:59 Enabling TightVNC protocol extensions
-
-02/09/16 14:14:08 Got connection from client 129.31.147.25
-02/09/16 14:14:08   (other clients 129.31.147.25)
-02/09/16 14:14:08 Using protocol version 3.8
-02/09/16 14:14:08 Enabling TightVNC protocol extensions
-02/09/16 14:14:14 Full-control authentication passed by 129.31.147.25
-02/09/16 14:14:14 Using tight encoding for client 129.31.147.25
-02/09/16 14:14:14 rfbProcessClientNormalMessage: ignoring unknown encoding 16
-02/09/16 14:14:14 Using image quality level 6 for client 129.31.147.25
-02/09/16 14:14:14 rfbProcessClientNormalMessage: ignoring unknown encoding -223
-02/09/16 14:14:14 Enabling LastRect protocol extension for client 129.31.147.25
-02/09/16 14:14:14 Enabling cursor position updates for client 129.31.147.25
-02/09/16 14:14:14 Enabling full-color cursor updates for client 129.31.147.25
-02/09/16 14:14:14 Pixel format for client 129.31.147.25:
-02/09/16 14:14:14   32 bpp, depth 24, little endian
-02/09/16 14:14:14   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+05/09/16 14:06:03 Got connection from client 129.31.147.25
+05/09/16 14:06:03 Using protocol version 3.8
+05/09/16 14:06:03 Enabling TightVNC protocol extensions
+05/09/16 14:06:10 Full-control authentication passed by 129.31.147.25
+05/09/16 14:06:10 Using tight encoding for client 129.31.147.25
+05/09/16 14:06:10 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+05/09/16 14:06:10 Using image quality level 6 for client 129.31.147.25
+05/09/16 14:06:10 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+05/09/16 14:06:10 Enabling LastRect protocol extension for client 129.31.147.25
+05/09/16 14:06:10 Enabling cursor position updates for client 129.31.147.25
+05/09/16 14:06:10 Enabling full-color cursor updates for client 129.31.147.25
+05/09/16 14:06:10 Pixel format for client 129.31.147.25:
+05/09/16 14:06:10   32 bpp, depth 24, little endian
+05/09/16 14:06:10   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+05/09/16 14:14:56 KbdAddEvent: unknown KeySym 0xff61 - allocating KeyCode 89
+05/09/16 15:09:36 KbdAddEvent: unknown KeySym 0xffaf - allocating KeyCode 90
+05/09/16 15:30:42 KbdAddEvent: unknown KeySym 0xffb4 - allocating KeyCode 91
+05/09/16 16:27:30 Using tight encoding for client 129.31.147.25
+05/09/16 16:27:30 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+05/09/16 16:27:30 Using image quality level 6 for client 129.31.147.25
+05/09/16 16:27:30 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+05/09/16 16:27:30 Enabling LastRect protocol extension for client 129.31.147.25
+05/09/16 16:27:30 Enabling cursor position updates for client 129.31.147.25
+05/09/16 16:27:30 Enabling full-color cursor updates for client 129.31.147.25
+05/09/16 16:27:30 Using tight encoding for client 129.31.147.25
+05/09/16 16:27:30 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+05/09/16 16:27:30 Using image quality level 6 for client 129.31.147.25
+05/09/16 16:27:30 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+05/09/16 16:27:30 Enabling LastRect protocol extension for client 129.31.147.25
+05/09/16 16:27:30 Enabling cursor position updates for client 129.31.147.25
+05/09/16 16:27:30 Enabling full-color cursor updates for client 129.31.147.25
