@@ -148,10 +148,10 @@ def main():
             line = cell_line[-27:] # not sure why it is -27
         cells[-1].append(line.rstrip()) # adding new line (list) as part of cells (list of lists)
 
-    cells=cells[1:] #python indexing starts from 0; cells[1:] excludes headings we think
-
+    cells=cells[1:]
+ 
     for cell in cells:
-        parsed_cells.append(parse_cell(cell))
+        parsed_cells.append(parse_cell(cell)) #list of parse_cell(cell) outputs
 
     sort_cells(parsed_cells)
 

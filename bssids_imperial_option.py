@@ -105,16 +105,6 @@ def parse_cell(cell):
         rule=rules[key]		# rule = "Imperial - WPA" for example if key = "Name"
         parsed_cell.update({key:rule(cell)})
     return parsed_cell
-	
-def parse_cell_Imperial(cell):
-    """Applies the rules to the bunch of text describing a cell and returns the
-    corresponding dictionary"""
-    parsed_cell={}	# dictionary
-    for key in rules: 
-		if rules["Name"] == "Imperial-WPA"
-			rule=rules[key]		# rule = "Imperial - WPA" for example if key = "Name"
-			parsed_cell.update({key:rule(cell)})
-    return parsed_cell
 
 def print_table(table):
     widths=map(max,map(lambda l:map(len,l),zip(*table))) #functional magic
@@ -131,12 +121,19 @@ def print_table(table):
             print el,
         print
 
-def print_cells(cells):
+def print_cells(cells, response):
     table=[columns]
     for cell in cells:
         cell_properties=[]
-        for column in columns:
-            cell_properties.append(cell[column])
+        if response == "y":
+            if cell["Name"] == "Imperial-WPA":
+                for column in columns:
+                    cell_properties.append(cell[column])
+            else:
+                continue
+        else:
+            for column in columns:
+                cell_properties.append(cell[column])
         table.append(cell_properties)
     print_table(table)
 
@@ -145,8 +142,8 @@ def main():
     
     cells=[[]] # a list of lists
     parsed_cells=[]
-	
-	response = raw_input("Do you want information from Imperial-WPA only? [y/n]")
+
+    response = raw_input("Do you want information from Imperial-WPA only? [y/n]")
 
     proc = subprocess.Popen(["iwlist", interface, "scan"],stdout=subprocess.PIPE, universal_newlines=True) # runs "iwlist wlan0 scan" on command line and "pipes out" its output to this Python programme
     out, err = proc.communicate() # the above line specified what function to run and its parameters. This line actually sends that data to the standard input channel of the process one time
@@ -160,19 +157,13 @@ def main():
             line = cell_line[-27:] # not sure why it is -27
         cells[-1].append(line.rstrip()) # adding new line (list) as part of cells (list of lists)
 
-    cells=cells[1:] #python indexing starts from 0; cells[1:] excludes headings we think
-
-	if response == "Y" or "y":
-		for cell in cells:
-			parsed_cells.append(parse_cell_Imperial(cell))
-		
-	
-	else:
-		for cell in cells:
-			parsed_cells.append(parse_cell(cell))
+    cells=cells[1:]
+ 
+    for cell in cells:
+        parsed_cells.append(parse_cell(cell)) #list of parse_cell(cell) outputs
 
     sort_cells(parsed_cells)
 
-    print_cells(parsed_cells)
+    print_cells(parsed_cells, response)
 
 main()

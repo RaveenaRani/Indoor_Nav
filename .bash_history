@@ -308,3 +308,4 @@ sudo shutdown
 sudo shutdown -c
 sudo shutdown -h now
 iwconfig
+tightvncserver
