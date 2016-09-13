@@ -87,11 +87,11 @@ def get_address(cell):
 # function defined above.
 
 rules={"Name":get_name,
-    "Quality":get_quality,
+        "Quality":get_quality,
         "Channel":get_channel,
-            "Encryption":get_encryption,
-                "Address":get_address,
-                    "Signal":get_signal_level
+        "Encryption":get_encryption,
+        "Address":get_address,
+        "Signal":get_signal_level
                     }
 
 # Here you can choose the way of sorting the table. sortby should be a key of
@@ -140,35 +140,6 @@ def parse_cell(cell):
         parsed_cell.update({key:rule(cell)})
     return parsed_cell
 
-def print_table(table):
-    widths=map(max,map(lambda l:map(len,l),zip(*table))) #functional magic
-    
-    justified_table = []
-    for line in table:
-        justified_line=[]
-        for i,el in enumerate(line):
-            justified_line.append(el.ljust(widths[i]+2))
-        justified_table.append(justified_line)
-
-    return justified_table
-#    for line in justified_table:
-#        for el in line:
-#            return el,
-
-def print_cells(cells):
-    table=[columns]
-    for cell in cells:
-        cell_properties=[]
-        if cell["Name"] == "Imperial-WPA":
-            #if cell[0] == "Imperial-WPA":
-            print "entered if loop"
-            for column in columns:
-                cell_properties.append(cell[column])
-    else:
-        continue
-        table.append(cell_properties)
-    print_table(table)
-
 
 def cells_fn():
     cells=[[]] # a list of lists
@@ -194,7 +165,26 @@ def cells_fn():
         
         sort_cells(parsed_cells)
 
-        print_cells(parsed_cells)
+        table=[columns]
+        for cell2 in parsed_cells:
+            cell_properties=[]
+            if cell2["Name"] == "Imperial-WPA":
+                for column in columns:
+                    cell_properties.append(cell2[column])
+            else:
+                continue
+            table.append(cell_properties)
+       
+        widths=map(max,map(lambda l:map(len,l),zip(*table))) #functional magic
+    
+        justified_table = []
+        for line in table:
+            justified_line=[]
+            for i,el in enumerate(line):
+                justified_line.append(el.ljust(widths[i]+2))
+            justified_table.append(justified_line)
+
+        return justified_table
 
 
 
@@ -209,12 +199,12 @@ try:
             filename = "/home/pi/readings/" + t.strftime("%Y-%m-%d_%H-%M-%S") + ".txt"
             f = open(filename,"w+")
 
-            f.write("A\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\tBSSID\tRSSI\n")
+            f.write("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\t%s\t%s\t%s\t%s\t%s\t%s\n" %(columns[0], columns[1], columns[2], columns[3], columns[4], columns[5]))
 
             print "New file %s has been created.\n" % filename
 
-            print("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\tBSSID\tRSSI\n")
-            
+            print("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\t%s\t%s\t%s\t%s\t%s\t%s\n" %(columns[0], columns[1], columns[2], columns[3], columns[4], columns[5]))
+
             # read in pins A and B to set the initial variables
             last_a_state = GPIO.input(A_PIN)
             last_b_state = GPIO.input(B_PIN)
@@ -232,8 +222,8 @@ try:
     
                 # prints and writes to a file the heading after every 20 lines
                 if (last_heading != 0) and ((last_heading % 20) == 0):
-                    f.write("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\tBSSID\tRSSI\n")
-                    print"\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\tBSSID\tRSSI\n" 
+                    f.write("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\t%s\t%s\t%s\t%s\t%s\t%s\n" %(columns[0], columns[1], columns[2], columns[3], columns[4], columns[5]))
+                    print("\nA\tB\tLAST_A\tLAST_B\tSEQ\tL_SEQ\tDELTA\tACC_DELTA\tLENGTH(cm)\tTIME\t%s\t%s\t%s\t%s\t%s\t%s\n" %(columns[0], columns[1], columns[2], columns[3], columns[4], columns[5]))
 
                 # extract individual signal bits for A and B
                 a_state = GPIO.input(A_PIN)
@@ -260,20 +250,27 @@ try:
                     # error = +/- 49.951/20 = +/- 2.50cm 
                     t = datetime.datetime.now()
                     timestamp = t.strftime("%H:%M:%S.%f")
-                    
+
                     justified_table_final = cells_fn()
-                    
+                    wifi_string = ""
+                    count =  0
                     for line in justified_table_final:
-                        for el in line:
-                            final_str = '%1d\t%1d\t%1d\t%1d\t%4d\t%4d\t%4d\t%4d\t\t%.2f\t%s\t%s\n' % (a_state, b_state, last_a_state, last_b_state, sequence, last_sequence, delta, accumulated_delta, length, timestamp, el)
-                    f.write(final_str)
-                    print "%s\n" % final_str
+                        if count % 2 == 1:
+                            for el in line:
+                                wifi_string = wifi_string + el
+                            final_str = '%1d\t%1d\t%1d\t%1d\t%4d\t%4d\t%4d\t%4d\t\t%.2f\t%s\t%s\n' % (a_state, b_state, last_a_state, last_b_state, sequence, last_sequence, delta, accumulated_delta, length, timestamp, wifi_string)
+                            f.write(final_str)
+                            print "%s\n" % final_str
+                            wifi_string = ""
+                        else:
+                            continue
+                        count = count + 1
                     
-                    last_heading += 1
-                    last_a_state = a_state
-                    last_delta = delta
-                    last_b_state = b_state
-                    last_sequence = sequence
+                        last_heading += 1
+                        last_a_state = a_state
+                        last_delta = delta
+                        last_b_state = b_state
+                        last_sequence = sequence
 
                 if (GPIO.input(stopPin)):
                     print "Stop button has been pressed!\n"
