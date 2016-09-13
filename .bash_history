@@ -309,3 +309,15 @@ sudo shutdown -c
 sudo shutdown -h now
 iwconfig
 tightvncserver
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git all --all
+git add --all
+git commit -m"all files including bssids_imperial_option.py which is working"
+git push origin master 
+sudo shutdown -h now
+ifconfig
+iwconfig
+hostname -I
+sudo cat /etc/hostname 
+python bssids.py
+sudo shutdown -h now

@@ -1,5 +1,9 @@
-/home/pi/bssids_imp_v3.py
+/home/pi/blabla.py
+/home/pi/s_wheel.py
+/home/pi/combination.py
+/home/pi/bssids_imperial.py
 /home/pi/bssids.py
+/home/pi/bssids_imperial_option.py
 /usr/local/lib/python2.7/dist-packages/pythonwifi/iwlibs.py
 /home/pi/python-wifi-0.6.1/pythonwifi/iwlibs_edit.py
 /home/pi/testfile.py
@@ -14,5 +18,3 @@
 /home/pi/NetworkManager/examples/python/add-connection.py
 /usr/lib/python2.7/dist-packages/dbus/bus.py
 /home/pi/NetworkManager/examples/python/list-connections.py
-/usr/lib/python2.7/dist-packages/dbus/exceptions.py
-/home/pi/s_wheel.py

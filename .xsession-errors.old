@@ -1,7 +1,20 @@
-Xsession: X session started for pi at Tue  6 Sep 15:17:17 UTC 2016
+Xsession: X session started for pi at Thu  8 Sep 11:49:11 UTC 2016
 localuser:pi being added to access control list
 ** Message: main.vala:99: Session is LXDE-pi
 ** Message: main.vala:100: DE is LXDE
+org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+** Message: main.vala:131: log directory: /home/pi/.cache/lxsession/LXDE-pi
+** Message: main.vala:132: log path: /home/pi/.cache/lxsession/LXDE-pi/run.log
+Xsession: X session started for pi at Mon 12 Sep 17:02:36 UTC 2016
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+localuser:pi being added to access control list
+** Message: main.vala:99: Session is LXDE-pi
+** Message: main.vala:100: DE is LXDE
+Xlib:  extension "RANDR" missing on display ":1".
 org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
 ** Message: main.vala:131: log directory: /home/pi/.cache/lxsession/LXDE-pi
 ** Message: main.vala:132: log path: /home/pi/.cache/lxsession/LXDE-pi/run.log
