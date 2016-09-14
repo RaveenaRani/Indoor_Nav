@@ -1,0 +1,14 @@
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+0	1	1	1	   3	   2	   1	   1		2.50	15:07:55.405988	Name          Address            Quality  Signal   Channel  Encryption  
+0	0	0	1	   0	   3	   1	   2		5.00	15:07:55.473620	Name          Address            Quality  Signal   Channel  Encryption  
+1	0	0	0	   1	   0	   1	   3		7.49	15:07:55.536310	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	1	0	   2	   1	   1	   4		9.99	15:07:55.597987	Name          Address            Quality  Signal   Channel  Encryption  
+0	1	1	1	   3	   2	   1	   5		12.49	15:07:55.967141	Name          Address            Quality  Signal   Channel  Encryption  
+0	0	0	1	   0	   3	   1	   6		14.99	15:07:56.292884	Name          Address            Quality  Signal   Channel  Encryption  
+1	0	0	0	   1	   0	   1	   7		17.48	15:07:56.381728	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	1	0	   2	   1	   1	   8		19.98	15:07:56.471299	Name          Address            Quality  Signal   Channel  Encryption  
+0	1	1	1	   3	   2	   1	   9		22.48	15:07:56.970137	Name          Address            Quality  Signal   Channel  Encryption  
+0	0	0	1	   0	   3	   1	  10		24.98	15:07:57.422023	Name          Address            Quality  Signal   Channel  Encryption  
+1	0	0	0	   1	   0	   1	  11		27.47	15:07:57.474199	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	1	0	   2	   1	   1	  12		29.97	15:07:57.558100	Name          Address            Quality  Signal   Channel  Encryption  

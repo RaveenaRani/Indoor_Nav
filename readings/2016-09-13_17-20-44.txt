@@ -1,0 +1,34 @@
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+1	1	1	0	   2	   1	   1	   1		2.50	17:20:45.130852	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	1	0	   2	   1	   1	   1		2.50	17:20:45.130852	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   2		5.00	17:20:45.319173	Name          Address            Quality  Signal   Channel  Encryption  
+0	1	1	1	   3	   2	   1	   2		5.00	17:20:45.319173	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	   3		7.49	17:20:45.374922	Name          Address            Quality  Signal   Channel  Encryption  
+0	0	0	1	   0	   3	   1	   3		7.49	17:20:45.374922	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	1	0	0	   2	   0	   2	   5		12.49	17:20:45.432524	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	0	0	   2	   0	   2	   5		12.49	17:20:45.432524	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   6		14.99	17:20:45.488782	Name          Address            Quality  Signal   Channel  Encryption  
+0	1	1	1	   3	   2	   1	   6		14.99	17:20:45.488782	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	0	0	1	   1	   3	   2	   8		19.98	17:20:45.543312	Name          Address            Quality  Signal   Channel  Encryption  
+1	0	0	1	   1	   3	   2	   8		19.98	17:20:45.543312	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	   9		22.48	17:20:45.597478	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	1	0	   2	   1	   1	   9		22.48	17:20:45.597478	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  10		24.98	17:20:45.657086	Name          Address            Quality  Signal   Channel  Encryption  
+0	1	1	1	   3	   2	   1	  10		24.98	17:20:45.657086	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	0	0	1	   1	   3	   2	  12		29.97	17:20:45.712502	Name          Address            Quality  Signal   Channel  Encryption  
+1	0	0	1	   1	   3	   2	  12		29.97	17:20:45.712502	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  13		32.47	17:20:45.767114	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	1	0	   2	   1	   1	  13		32.47	17:20:45.767114	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  14		34.97	17:20:45.843361	Name          Address            Quality  Signal   Channel  Encryption  
+0	1	1	1	   3	   2	   1	  14		34.97	17:20:45.843361	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  15		37.46	17:20:45.898730	Name          Address            Quality  Signal   Channel  Encryption  
+0	0	0	1	   0	   3	   1	  15		37.46	17:20:45.898730	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	1	0	0	   2	   0	   2	  17		42.46	17:20:45.954953	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	0	0	   2	   0	   2	  17		42.46	17:20:45.954953	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  18		44.96	17:20:46.047634	Name          Address            Quality  Signal   Channel  Encryption  
+0	1	1	1	   3	   2	   1	  18		44.96	17:20:46.047634	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	0	0	1	   1	   3	   2	  20		49.95	17:20:46.149014	Name          Address            Quality  Signal   Channel  Encryption  
+1	0	0	1	   1	   3	   2	  20		49.95	17:20:46.149014	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  21		52.45	17:20:46.204147	Name          Address            Quality  Signal   Channel  Encryption  
+1	1	1	0	   2	   1	   1	  21		52.45	17:20:46.204147	Imperial-WPA  E0:0E:DA:89:5A:40   60 %    -68 dBm  6        WEP         

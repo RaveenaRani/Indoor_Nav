@@ -1,0 +1,16 @@
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+1	0	0	0	   1	   0	   1	   1		2.50	17:17:57.846525	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	   2		5.00	17:17:57.903167	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   3		7.49	17:17:58.014769	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	   4		9.99	17:17:58.062559	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	   5		12.49	17:17:58.106303	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	   6		14.99	17:17:58.148524	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   7		17.48	17:17:58.261272	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	   8		19.98	17:17:58.305690	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	   9		22.48	17:17:58.351064	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  10		24.98	17:17:58.395998	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  11		27.47	17:17:58.484790	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  12		29.97	17:17:58.553744	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	0	0	   2	   0	   2	  14		34.97	17:17:58.598503	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  15		37.46	17:17:58.728679	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         

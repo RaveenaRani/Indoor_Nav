@@ -127,7 +127,6 @@ def print_cells(cells):
         cell_properties=[]
         if cell["Name"] == "Imperial-WPA":
         #if cell[0] == "Imperial-WPA":
-            print "entered if loop"
             for column in columns:
                 cell_properties.append(cell[column])
         else:

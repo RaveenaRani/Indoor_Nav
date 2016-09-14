@@ -321,3 +321,18 @@ hostname -I
 sudo cat /etc/hostname 
 python bssids.py
 sudo shutdown -h now
+git add --all
+git commit -m"all files added including printing bssdis from any network, from Imperial-WPA only and with an option to choose"
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git push origin master
+git pull
+git pull https://navidu@bitbucket.org/navidu/rp3.git
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git add merged.py
+git commit -m"check to see if merged.py works! struggled to get it to print more than one different bssid"
+git push origin master 
+sudo shutdown -h now
+sudo nano /etc/network
+sudo nano /etc/network/interfaces
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+sudo reboot

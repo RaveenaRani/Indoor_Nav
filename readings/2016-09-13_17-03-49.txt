@@ -1,0 +1,19 @@
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	BSSID	RSSI
+0	1	1	1	   3	   2	   1	   1		2.50	17:03:50.055875	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	   2		5.00	17:03:50.111684	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	0	0	   2	   0	   2	   4		9.99	17:03:50.147164	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   5		12.49	17:03:50.226513	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	0	0	1	   1	   3	   2	   7		17.48	17:03:50.305345	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	   8		19.98	17:03:50.347012	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   9		22.48	17:03:50.403600	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  10		24.98	17:03:50.439828	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	  11		27.47	17:03:50.478946	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  12		29.97	17:03:50.515991	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  13		32.47	17:03:50.611408	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  14		34.97	17:03:50.678766	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	  15		37.46	17:03:50.720850	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  16		39.96	17:03:50.757803	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  17		42.46	17:03:50.858326	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  18		44.96	17:03:50.912700	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	  19		47.45	17:03:50.950763	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  20		49.95	17:03:50.994636	Imperial-WPA  E0:0E:DA:89:5A:40   54 %    -72 dBm  6        WEP         

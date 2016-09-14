@@ -255,22 +255,21 @@ try:
                     wifi_string = ""
                     count =  0
                     for line in justified_table_final:
-                        if count % 2 == 1:
+                        if count % 2 != 0:
                             for el in line:
                                 wifi_string = wifi_string + el
                             final_str = '%1d\t%1d\t%1d\t%1d\t%4d\t%4d\t%4d\t%4d\t\t%.2f\t%s\t%s\n' % (a_state, b_state, last_a_state, last_b_state, sequence, last_sequence, delta, accumulated_delta, length, timestamp, wifi_string)
                             f.write(final_str)
                             print "%s\n" % final_str
                             wifi_string = ""
-                        else:
-                            continue
+                            
                         count = count + 1
                     
-                        last_heading += 1
-                        last_a_state = a_state
-                        last_delta = delta
-                        last_b_state = b_state
-                        last_sequence = sequence
+                    last_heading += 1
+                    last_a_state = a_state
+                    last_delta = delta
+                    last_b_state = b_state
+                    last_sequence = sequence
 
                 if (GPIO.input(stopPin)):
                     print "Stop button has been pressed!\n"
@@ -281,6 +280,7 @@ try:
                     accumulated_delta = 0
                     length = 0
                     last_heading = 0
+                    count = 0
                     break
 
 

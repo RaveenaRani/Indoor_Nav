@@ -1,0 +1,52 @@
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+1	1	1	0	   2	   1	   1	   1		2.50	17:23:41.941234	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   2		5.00	17:23:42.045755	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	0	0	1	   1	   3	   2	   4		9.99	17:23:42.112908	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	   5		12.49	17:23:42.138676	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	   6		14.99	17:23:42.219267	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	0	0	1	   1	   3	   2	   8		19.98	17:23:42.288727	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	   9		22.48	17:23:42.323533	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  10		24.98	17:23:42.420467	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  11		27.47	17:23:42.477639	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	  12		29.97	17:23:42.518070	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  13		32.47	17:23:42.550760	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  14		34.97	17:23:42.654055	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  15		37.46	17:23:42.704613	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	  16		39.96	17:23:42.743169	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  17		42.46	17:23:42.787428	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  18		44.96	17:23:42.957372	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	0	0	1	   0	   3	   1	  19		47.45	17:23:43.035947	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	0	0	0	   1	   0	   1	  20		49.95	17:23:43.083053	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+1	1	1	0	   2	   1	   1	  21		52.45	17:23:43.168029	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+0	1	1	1	   3	   2	   1	  22		54.95	17:23:43.531927	Imperial-WPA  E0:0E:DA:89:5A:40   56 %    -71 dBm  6        WEP         
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
+
+A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption

@@ -33,6 +33,8 @@ GPIO.setup(B_PIN,GPIO.IN)
 GPIO.setup(ledpin,GPIO.OUT)
 GPIO.output(ledpin,True)    # initially LED is turned off as pin is high
 
+columns=["Name","Address","Quality","Signal", "Channel","Encryption"]
+
 
 PERIMETER = 49.951  # perimeter in cm - verified
 
@@ -100,7 +102,6 @@ try:
                     # error = +/- 49.951/20 = +/- 2.50cm 
                     t = datetime.datetime.now()
                     timestamp = t.strftime("%H:%M:%S.%f")
-                    columns = BSSID.columns
                     cells = BSSID.cells_fn()
                     for cell in cells:
                         table = BSSID.print_cells(cells)
