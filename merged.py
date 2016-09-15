@@ -92,7 +92,7 @@ rules={"Name":get_name,
         "Encryption":get_encryption,
         "Address":get_address,
         "Signal":get_signal_level
-                    }
+        }
 
 # Here you can choose the way of sorting the table. sortby should be a key of
 # the dictionary rules.
@@ -163,28 +163,28 @@ def cells_fn():
     for cell in cells:
         parsed_cells.append(parse_cell(cell)) #list of parse_cell(cell) outputs
         
-        sort_cells(parsed_cells)
+    sort_cells(parsed_cells)
 
-        table=[columns]
-        for cell2 in parsed_cells:
-            cell_properties=[]
-            if cell2["Name"] == "Imperial-WPA":
-                for column in columns:
-                    cell_properties.append(cell2[column])
-            else:
-                continue
-            table.append(cell_properties)
-       
-        widths=map(max,map(lambda l:map(len,l),zip(*table))) #functional magic
-    
-        justified_table = []
-        for line in table:
-            justified_line=[]
-            for i,el in enumerate(line):
-                justified_line.append(el.ljust(widths[i]+2))
-            justified_table.append(justified_line)
+    table=[columns]
+    for cell2 in parsed_cells:
+        cell_properties=[]
+        if cell2["Name"] == "Imperial-WPA":
+            for column in columns:
+                cell_properties.append(cell2[column])
+        else:
+            continue
+        table.append(cell_properties)
+   
+    widths=map(max,map(lambda l:map(len,l),zip(*table))) #functional magic
 
-        return justified_table
+    justified_table = []
+    for line2 in table:
+        justified_line=[]
+        for i,el in enumerate(line2):
+            justified_line.append(el.ljust(widths[i]+2))
+        justified_table.append(justified_line)
+
+    return justified_table
 
 
 
