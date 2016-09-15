@@ -1,5 +1,0 @@
-
-A	B	LAST_A	LAST_B	SEQ	L_SEQ	DELTA	ACC_DELTA	LENGTH(cm)	TIME	Name	Address	Quality	Signal	Channel	Encryption
-0	1	1	1	   3	   2	   1	   1		2.50	15:23:26.423921	Imperial-WPA  E0:0E:DA:89:5A:40   49 %    -76 dBm  6        WEP         
-0	0	0	1	   0	   3	   1	   2		5.00	15:23:26.572933	Imperial-WPA  E0:0E:DA:89:5A:40   49 %    -76 dBm  6        WEP         
-1	0	0	0	   1	   0	   1	   3		7.49	15:23:26.761168	Imperial-WPA  E0:0E:DA:89:5A:40   49 %    -76 dBm  6        WEP         
