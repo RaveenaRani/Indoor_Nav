@@ -1,3 +1,5 @@
+/home/pi/merged_JSONrav.py
+/home/pi/merged_JSON.py
 /home/pi/merged.py
 /home/pi/bssids_imperial.py
 /home/pi/s_wheel.py
@@ -17,4 +19,3 @@
 /usr/lib/python2.7/dist-packages/dbus/connection.py
 /home/pi/NetworkManager/examples/python/add-connection.py
 /usr/lib/python2.7/dist-packages/dbus/bus.py
-/home/pi/NetworkManager/examples/python/list-connections.py

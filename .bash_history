@@ -336,3 +336,14 @@ sudo nano /etc/network
 sudo nano /etc/network/interfaces
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 sudo reboot
+git pull
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git add --all
+git commit -m"it works! new reading added to verify"
+git push origin master
+sudo shutdown -h now
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+pip update json && pip upgrade json
+pip upgrade json
+sudo pip install json --upgrade && update
+sudo pip install json --upgrade

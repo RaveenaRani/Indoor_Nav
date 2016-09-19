@@ -251,7 +251,7 @@ try:
 
                     justified_table_final = cells_fn()
                     wifi_string = ""
-                    wifiset = {}
+                    wifiset = []
                     count =  0
                     for line in justified_table_final:
                         if count % 2 != 0:
@@ -267,7 +267,12 @@ try:
                             dataset = {
                                 'length(cm)' : length,
                                 'time' : timestamp,
-                                {columns[0], columns[1], columns[2], columns[3], columns[4], columns[5]} : wifiset
+                                columns[0] : wifiset[0],
+                                columns[1] : wifiset[1],
+                                columns[2] : wifiset[2],
+                                columns[3] : wifiset[3],
+                                columns[4] : wifiset[4],
+                                columns[5] : wifiset[5]
                             }
                                 
                             data.append(dataset)
