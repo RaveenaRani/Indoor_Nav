@@ -720,21 +720,21 @@ Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Configured 129.31.220.239/21
 ** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.220.239/21
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.220.239/21
+** Message: wlan0: Received scan results
 ived scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.220.239/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: wlan0: Configured 129.31.220.239/21
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Received scan results
-** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Configured 129.31.220.239/21
 ** Message: wlan0: Received scan results
@@ -835,3 +835,107 @@ Xlib:  extension "XInputExtension" missing on display ":1".
 (pcmanfm:918): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
 (openbox:906): GLib-CRITICAL **: Source ID 12 was not found when attempting to remove it
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.220.239/21
+** Message: wlan0: Received scan results
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(pcmanfm:918): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1.0".
+org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(openbox:906): GLib-CRITICAL **: Source ID 17 was not found when attempting to remove it
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+
+(pcmanfm:918): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:918): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Configured 129.31.220.239/21
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:916): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "RANDR" missing on display ":1.0".
+org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+Xlib:  extension "XInputExtension" missing on display ":1".
+Xlib:  extension "XInputExtension" missing on display ":1".

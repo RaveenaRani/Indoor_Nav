@@ -347,3 +347,8 @@ pip update json && pip upgrade json
 pip upgrade json
 sudo pip install json --upgrade && update
 sudo pip install json --upgrade
+sudo pip install simplejson
+git add --all
+git commit -m"we <3 .json - code dumps to json properly - not sure why there are spaces after certain entries"
+git push origin master 
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
