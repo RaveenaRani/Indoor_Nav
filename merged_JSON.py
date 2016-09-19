@@ -257,6 +257,7 @@ try:
                         if count % 2 != 0:
                             for el in line:
                                 wifi_string = wifi_string + el + "\t"
+                                el = el.rstrip()
                                 wifiset.append(el)
                             
                             final_str = '%1d\t%1d\t%1d\t%1d\t%4d\t%4d\t%4d\t%4d\t\t%.2f\t%s\t%s\n' % (a_state, b_state, last_a_state, last_b_state, sequence, last_sequence, delta, accumulated_delta, length, timestamp, wifi_string)
