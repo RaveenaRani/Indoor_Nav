@@ -63,7 +63,10 @@ def get_channel(cell):
 def get_signal_level(cell):
     # Signal level is on same line as Quality data so a bit of ugly
     # hacking needed...
-    return matching_line(cell,"Quality=").split("Signal level=")[1]
+    sig = matching_line(cell,"Quality=").split("Signal level=")[1]
+    sep = " "
+    sig = sig.split(sep,1)[0]
+    return sig
 
 
 def get_encryption(cell):
@@ -107,7 +110,7 @@ def sort_cells(cells):
 # You can choose which columns to display here, and most importantly in what order. Of
 # course, they must exist as keys in the dict rules.
 
-columns=["Name","Address","Quality","Signal", "Channel","Encryption"]
+columns=["Name","Address","Quality","Signal(dBm)", "Channel","Encryption"]
 
 
 
