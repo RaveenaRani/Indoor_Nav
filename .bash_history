@@ -352,3 +352,7 @@ git add --all
 git commit -m"we <3 .json - code dumps to json properly - not sure why there are spaces after certain entries"
 git push origin master 
 git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git add --all
+git commit -m"the unnecessary empty characters at the end of the strings have been removed from the .json file"
+git push origin master 
+sudo shutdown -h now
