@@ -96,7 +96,7 @@ rules={"Name":get_name,
         "Channel":get_channel,
         "Encryption":get_encryption,
         "Address":get_address,
-        "Signal":get_signal_level
+        "Signal(dBm)":get_signal_level
         }
 
 # Here you can choose the way of sorting the table. sortby should be a key of
