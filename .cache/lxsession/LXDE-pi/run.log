@@ -219,39 +219,57 @@ org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesk
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Configured 129.31.216.78/21
-fig/lxsession/LXDE-pi/desktop.conf
-** Message: settings.vala:490: Reload the xsettings option
-** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
-** Message: options.vala:186: Reload xsettings_manager build-in
-** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: settings.vala:490: Reload the xsettings option
-** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
-** Message: options.vala:186: Reload xsettings_manager build-in
-** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: settings.vala:490: Reload the xsettings option
-** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
-** Message: options.vala:186: Reload xsettings_manager build-in
-** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: Connecting ...
-** Message: Status changed to down
-** Message: Status changed to opened
-** Message: Connected to dhcpcd-6.7.1
-** Message: settings.vala:490: Reload the xsettings option
-** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
-** Message: options.vala:186: Reload xsettings_manager build-in
-** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
-Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
-** Message: Status changed to connected
-** Message: eth0: CARRIER
-** Message: eth0: Configured 129.31.147.114/24
-** Message: wlan0: Not associated
 ** Message: wlan0: Received scan results
-** Message: settings.vala:490: Reload the xsettings option
-** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+emon
 ** Message: options.vala:186: Reload xsettings_manager build-in
 ** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
 ** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
@@ -457,3 +475,122 @@ Xlib:  extension "XInputExtension" missing on display "aabpi:1".
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "RANDR" missing on display "aabpi:1.0".
+org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:907): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:907): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:907): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+** Message: wlan0: Received scan results
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:907): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+** Message: wlan0: Received scan results
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: eth0: Configured 129.31.147.114/24
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:907): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+** Message: wlan0: Received scan results
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:907): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+** Message: wlan0: Received scan results
+** Message: wlan0: Configured 129.31.216.78/21
+cat: /proc/0/cmdline: No such file or directory
+
+** (lxpanel:907): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:908): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "RANDR" missing on display "aabpi:1.0".
+org.gtk.vfs.MountTracker.listMountableInfo call failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gtk.vfs.Daemon was not provided by any .service files (g-dbus-error-quark, 2)
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+Xlib:  extension "XInputExtension" missing on display "aabpi:1".
+** Message: wlan0: Received scan results

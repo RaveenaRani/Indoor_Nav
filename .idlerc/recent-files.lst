@@ -1,4 +1,7 @@
-/home/pi/merged_JSON_samplingRate_NoWheel.py
+/home/pi/merged_JSON_singleList.py
+/home/pi/print_graph.py
+/home/pi/testfile.py
+/home/pi/merged_JSON_ConstSampRate.py
 /home/pi/merged_JSON.py
 /home/pi/bssids_imperial.py
 /home/pi/merged.py
@@ -8,7 +11,6 @@
 /home/pi/bssids_imperial_option.py
 /usr/local/lib/python2.7/dist-packages/pythonwifi/iwlibs.py
 /home/pi/python-wifi-0.6.1/pythonwifi/iwlibs_edit.py
-/home/pi/testfile.py
 /home/pi/python-wifi-0.6.1/examples/iwconfig.py
 /home/pi/python-wifi-0.6.1/examples/iwlist.py
 /home/pi/python-wifi-0.6.1/pythonwifi/iwlibs.py
@@ -17,5 +19,3 @@
 /home/pi/python-networkmanager/examples/connection_detail.py
 /home/pi/NetworkManager/examples/python/show-bssids.py
 /usr/lib/python2.7/dist-packages/dbus/connection.py
-/home/pi/NetworkManager/examples/python/add-connection.py
-/usr/lib/python2.7/dist-packages/dbus/bus.py
