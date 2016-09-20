@@ -225,6 +225,15 @@ try:
                 a_state = GPIO.input(A_PIN)
                 b_state = GPIO.input(B_PIN)
                 
+                lengthset = []
+                timeset = []
+                wifi0 = []
+                wifi1 = []
+                wifi2 = []
+                wifi3 = []
+                wifi4 = []
+                wifi5 = []
+                
                 # determine the delta value and add it if either A or B has changed
                 if((last_a_state != a_state) or (last_b_state != b_state)):
                     sequence = (a_state ^ b_state) | (b_state << 1) 
@@ -251,14 +260,6 @@ try:
                     wifi_string = ""
                     wifiset = []
                     
-                    lengthset = []
-                    timeset = []
-                    wifi0 = []
-                    wifi1 = []
-                    wifi2 = []
-                    wifi3 = []
-                    wifi4 = []
-                    wifi5 = []
                     
                     count =  0
                     for line in justified_table_final:
