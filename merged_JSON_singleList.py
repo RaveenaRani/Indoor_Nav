@@ -66,7 +66,7 @@ def get_signal_level(cell):
     sig = matching_line(cell,"Quality=").split("Signal level=")[1]
     sep = " "
     sig = sig.split(sep,1)[0]
-    return sig
+    return int(sig)
 
 
 def get_encryption(cell):
