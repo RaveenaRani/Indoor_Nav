@@ -65,8 +65,7 @@ def get_signal_level(cell):
     # hacking needed...
     sig = matching_line(cell,"Quality=").split("Signal level=")[1]
     sep = " "
-    sig = sig.split(sep,1)[0]
-    return int(sig)
+    return sig.split(sep,1)[0]
 
 
 def get_encryption(cell):
@@ -180,6 +179,7 @@ def cells_fn():
             continue
         table.append(cell_properties)
    
+
     widths=map(max,map(lambda l:map(len,l),zip(*table))) #functional magic
 
     justified_table = []
@@ -283,7 +283,7 @@ try:
                             wifi0.append(wifiset[0])
                             wifi1.append(wifiset[1])
                             wifi2.append(wifiset[2])
-                            wifi3.append(wifiset[3])
+                            wifi3.append(int(wifiset[3])) #convert signal strength to int
                             wifi4.append(wifiset[4])
                             wifi5.append(wifiset[5])
                             

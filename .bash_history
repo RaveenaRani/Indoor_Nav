@@ -356,3 +356,31 @@ git add --all
 git commit -m"the unnecessary empty characters at the end of the strings have been removed from the .json file"
 git push origin master 
 sudo shutdown -h now
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+dv6915TX
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git add --all
+git commit -m"new reading from the every-second code"
+git push origin master
+git add --all
+git commit -m"file names changed and file created in readings"
+git push origin master
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git push origin master 
+git add --all
+git commit -m"new reading, modified json struct"
+git push origin master 
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git add --all
+git commit -m"singlelength file added, now all entries are under one {} ""
+git commit -m"singlelength file added, now all entries are under one {} "
+git commit -m"singlelength file added, now all entries are under one {} "
+git push origin master 
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+git add --all
+git commit -m"readings - trying to remove text"
+git push origin master 
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+iwlist wlan0 scan
+iwlist wlan0
+iwlist wlan0 scan
