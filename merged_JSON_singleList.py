@@ -19,6 +19,8 @@ import subprocess
 
 import json
 
+import matlab.engine
+
 
 interface = "wlan0"
 
@@ -315,6 +317,11 @@ try:
                     with open(filename,"w+") as f:
                         json.dump(data, f)
                     print "New file %s has been written.\n" % filename
+                    
+                    #plot graph
+                    eng = matlab.engine.start_matlab()
+                    eng.plot_signal_strength(nargout=0)
+                    
                     #set all values to the initial state
                     delta = 0
                     accumulated_delta = 0
@@ -322,6 +329,7 @@ try:
                     last_heading = 0
                     count = 0
                     break
+
 
 
 finally:
