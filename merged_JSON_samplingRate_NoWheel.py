@@ -192,7 +192,7 @@ try:
             
             # open the file
             t = datetime.datetime.now()
-            filename = "/home/pi/readings/" + t.strftime("%Y-%m-%d_%H-%M-%S") + ".json"
+            filename = "/home/pi/readings/EverySecond_JSON" + t.strftime("%Y-%m-%d_%H-%M-%S") + ".json"
 
             data = []
 
