@@ -213,7 +213,16 @@ try:
             last_sequence = (last_a_state ^ last_b_state) | last_b_state << 1
             delta = 0
             length = 0
-            
+
+            lengthset = []
+            timeset = []
+            wifi0 = []
+            wifi1 = []
+            wifi2 = []
+            wifi3 = []
+            wifi4 = []
+            wifi5 = []
+        
             while True:
                 GPIO.output(ledpin,False)   # LED turns on
     
@@ -224,15 +233,7 @@ try:
                 # extract individual signal bits for A and B
                 a_state = GPIO.input(A_PIN)
                 b_state = GPIO.input(B_PIN)
-                
-                lengthset = []
-                timeset = []
-                wifi0 = []
-                wifi1 = []
-                wifi2 = []
-                wifi3 = []
-                wifi4 = []
-                wifi5 = []
+            
                 
                 # determine the delta value and add it if either A or B has changed
                 if((last_a_state != a_state) or (last_b_state != b_state)):
