@@ -1,1 +1,1 @@
-Please read Documentation.docx inside, for an introduction to the repository!
+Please read our Documentation on https://goo.gl/toZptN, for an introduction to the repository!
