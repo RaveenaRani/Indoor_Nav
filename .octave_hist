@@ -1,0 +1,558 @@
+disp(available_graphics_toolkits());more off;disp(char(3))
+graphics_toolkit('gnuplot')
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist call
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmptIHKWo/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmp07ueZl/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            help addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpebWQNj/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+# Octave 3.8.2, Wed Sep 21 16:12:59 2016 UTC <pi@aabpi>
+disp(available_graphics_toolkits());more off;disp(char(3))
+graphics_toolkit('gnuplot')
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpDgnMBw/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            help addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpphRQ6V/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            load /tmp/tmpa2zaRp/writer.mat "A__"
+addpath(A__);
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpa2zaRp/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist call
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmp4ITf3V/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+# Octave 3.8.2, Wed Sep 21 16:15:32 2016 UTC <pi@aabpi>
+disp(available_graphics_toolkits());more off;disp(char(3))
+graphics_toolkit('gnuplot')
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpMK7UUU/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            help addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpQMwhzI/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            load /tmp/tmpRVB6I5/writer.mat "A__"
+addpath(A__);
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpRVB6I5/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist run
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpd_J08D/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            help run
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpGKetWW/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            load /tmp/tmpgVovlI/writer.mat "A__"
+run(A__);
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpgVovlI/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+# Octave 3.8.2, Wed Sep 21 16:33:26 2016 UTC <pi@aabpi>
+disp(available_graphics_toolkits());more off;disp(char(3))
+graphics_toolkit('gnuplot')
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpPz__6X/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            help addpath
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpe6ybcM/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            load /tmp/tmpLVgxxR/writer.mat "A__"
+addpath(A__);
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpLVgxxR/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            load /tmp/tmpxrpFF_/writer.mat "A__"
+addpath(A__);
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpxrpFF_/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            exist run
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpLIB149/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            help run
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmp8XhnqN/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+        set(0, 'DefaultFigurePosition', [300, 200, 560, 420]);
+            
+            "set(0, 'defaultfigurevisible', 'on');"
+        clear("ans");
+        rehash;
+        clear("_");
+        clear("a__");
+        disp(char(2));
+        try
+            disp(char(2));
+            load /tmp/tmpQzOXN_/writer.mat "A__"
+run(A__);
+            if exist("ans") == 1
+               _ = ans;
+            end
+            disp(char(3))
+        catch
+            disp(lasterr());
+            disp(char(24));
+        end
+        if exist("_") == 1
+            if exist("a__") == 0
+                save -v6 -mat-binary /tmp/tmpQzOXN_/reader.mat _;
+            end
+        end
+        drawnow("expose");
+        disp(char(3))
+        
+# Octave 3.8.2, Wed Sep 21 16:46:55 2016 UTC <pi@aabpi>

@@ -1,12 +1,15 @@
 % opens a JSON file and plot Length vs Signal Strength
 
-[FileName,PathName] = uigetfile('*.json')
-data = loadjson(strcat(PathName,FileName))
+function plot_signal_strength(filename)
 
-length = data.length_0x28_cm_0x29_
-signal = data.Signal_0x28_dBm_0x29_
+	data = loadjson(filename)
 
-plot(length, signal)
-xlabel('Length (cm)')
-ylabel('Signal Strength (dBm)')
-grid minor
+	length = data.length_0x28_cm_0x29_
+	signal = data.Signal_0x28_dBm_0x29_
+
+	plot(length, signal)
+	xlabel('Length (cm)')
+	ylabel('Signal Strength (dBm)')
+	grid minor
+
+endfunction

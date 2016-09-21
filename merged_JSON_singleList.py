@@ -19,7 +19,7 @@ import subprocess
 
 import json
 
-import matlab.engine
+from oct2py import octave
 
 
 interface = "wlan0"
@@ -319,8 +319,9 @@ try:
                     print "New file %s has been written.\n" % filename
                     
                     #plot graph
-                    eng = matlab.engine.start_matlab()
-                    eng.plot_signal_strength(nargout=0)
+                    octave.addpath('/home/pi')
+                    octave.addpath('/home/pi/jsonlab')
+                    octave.feval("plot_signal_strength", filename)
                     
                     #set all values to the initial state
                     delta = 0

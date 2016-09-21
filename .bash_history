@@ -384,3 +384,28 @@ git pull https://navidu@bitbucket.org/navidu/rpi3.git
 iwlist wlan0 scan
 iwlist wlan0
 iwlist wlan0 scan
+git add --all
+git commit -m"signal strength converted to int"
+git push origin master 
+
+git pull https://navidu@bitbucket.org/navidu/rpi3.git
+sudo pip install matlab.engine
+sudo pip install pylab
+sudo apt-get install python-numpy python-scipy python-matplotlib
+sudo apt-get update python-numpy python-scipy python-matplotlib 
+sudo apt-get update
+sudo pip install python-numpy python-scipy python-matplotlib
+sudo pip install numpy scipy matplotlib
+sudo nano /usr/local/lib/python2.7/dist-packages/matlab.py
+sudo pip install matplotlib
+sudo apt-get install liblas-dev liblapack-dev python-dev libatlas-base-dev gfortran python-setuptools
+sudo easy_install scipy && sudo apt-get install python-matplotlib
+sudo pip install engine
+sudo apt-get install engine
+sudo shutdown -h now
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+sudo reboot
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+sudo reboot
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+sudo reboot
